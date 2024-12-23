@@ -18,9 +18,13 @@ export default function App() {
      <TextInput style={styles.input}
      mode="outlined"
      placeholder = "Enter amount in LKR"
+     value={lkr}
+    onChangeText={setlkr}
      />
 
-      <Button title="Convert" />
+      <Button title="Convert" onPress={convertToUsd} />
+
+      {usd ? <Text style={styles.result}>USD: ${usd}</Text> : null}
     </View>
   );
 }
@@ -41,5 +45,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginBottom: 20,
     backgroundColor: '#fff',
+  },
+  result: {
+    fontSize: 20,
+    color: '#333',
+    marginTop: 20,
   }
 });
