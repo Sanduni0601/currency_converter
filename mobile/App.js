@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View ,TextInput} from 'react-native';
+import { StyleSheet, Text, View ,TextInput,Button} from 'react-native';
 import React, { useState } from 'react';
 
 export default function App() {
@@ -10,6 +10,8 @@ export default function App() {
      mode="outlined"
      placeholder = "Enter amount in LKR"
      />
+
+      <Button title="Convert" />
     </View>
   );
 }
