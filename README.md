@@ -1,4 +1,4 @@
-# currency_convert
+# currency_converter
 This is a simple Currency Converter App built using React Native. The app allows users to convert between Sri Lanka Rupees (LKR) and US Dollars (USD). It is designed to be lightweight and user-friendly. 
 
 ## _**How to Use**_
