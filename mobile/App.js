@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      
+       <Text style={styles.title}>LKR to USD Converter</Text>
      <TextInput style={styles.input}
      mode="outlined"
      placeholder = "Enter amount in LKR"
@@ -50,5 +50,10 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#333',
     marginTop: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
   }
 });
